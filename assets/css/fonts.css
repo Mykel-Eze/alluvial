@@ -1,0 +1,39 @@
+/* Rubik Fonts */
+@font-face {
+  font-family: 'rubik';
+  src: url('../fonts/Rubik/Rubik-Regular.ttf');
+}
+@font-face {
+  font-family: 'rubik-bold';
+  src: url('../fonts/Rubik/Rubik-Bold.ttf');
+}
+@font-face {
+  font-family: 'rubik-light';
+  src: url('../fonts/Rubik/Rubik-Light.ttf');
+}
+@font-face {
+  font-family: 'rubik-medium';
+  src: url('../fonts/Rubik/Rubik-Medium.ttf');
+}
+@font-face {
+  font-family: 'rubik-xbold';
+  src: url('../fonts/Rubik/Rubik-ExtraBold.ttf');
+}
+@font-face {
+font-family: 'rubik-smbold';
+src: url('../fonts/Rubik/Rubik-SemiBold.ttf');
+}
+
+/* Nunito Fonts */
+@font-face {
+  font-family: 'nunito';
+  src: url('../fonts/Nunito/Nunito-Regular.ttf');
+}
+@font-face {
+  font-family: 'nunito-bold';
+  src: url('../fonts/Nunito/Nunito-Bold.ttf');
+}
+@font-face {
+  font-family: 'nunito-xbold';
+  src: url('../fonts/Nunito/Nunito-ExtraBold.ttf');
+}

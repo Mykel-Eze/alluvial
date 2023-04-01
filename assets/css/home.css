@@ -1,0 +1,206 @@
+/*---=== Home Section ===---*/
+section#home {
+  padding-top: 120px;
+}
+.home-content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+}
+h1.home-txts.sec-color {
+  margin: 10px 0;
+  letter-spacing: -0.2px;
+  font-family: var(--sec-font-xbold);
+  font-size: 60px;
+}
+.home-txt-title {
+  font-size: 18px;
+  font-family: var(--sec-font-bold);
+  text-transform: uppercase;
+  color: var(--pry-color);
+}
+.home-txt-down {
+  font-size: 18px;
+  color: #696687;
+  line-height: 27px;
+}
+a.home-btn.btn {
+  /* background: linear-gradient(96deg, #6CB4FF 0%, #4798ED 100%); */
+  background-color: var(--pry-color);
+  border-radius: 5px;
+  font-size: 12px;
+  height: 46px;
+  line-height: 49px;
+  width: 130px;
+}
+a.home-btn.btn:hover {
+  background-color: var(--sec-color);
+}
+.home-btn-wrapper {
+  margin-top: 30px;
+}
+.home-txt-side {
+  max-width: 480px;
+}
+
+@media(max-width: 992px) {}
+
+@media(max-width: 600px) {
+  .home-content-wrapper {
+    grid-template-columns: 100%;
+    gap: 40px;
+  }
+  h1.home-txts.sec-color {
+    font-size: 48px;
+  }
+}
+/*---=== end of Home Section ===---*/
+
+/*---=== How-We-Help Section ===---*/
+section#how-we-help {
+  padding: 30px 0 150px;
+  background: linear-gradient(180deg, #FFFFFF 0%, #E3EFFC 100%);
+  position: relative;
+}
+section#how-we-help.rel {
+  z-index: 1;
+}
+h4.section-title {
+  font-size: 30px;
+  font-family: var(--sec-font-xbold);
+  color: var(--sec-color);
+}
+.section-txts {
+  color: #696687;
+  font-size: 16px;
+}
+.cloudy-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+@media(max-width: 992px) {}
+
+@media(max-width: 600px) {
+  section#how-we-help {
+    padding-bottom: 80px;
+  }
+}
+/*---=== end of How-We-Help Section ===---*/
+
+/*---=== Partners/Partnership Section ===---*/
+section#our-partners {
+  padding: 50px 0;
+}
+.partners-content-wrapper.home-content-wrapper {
+  gap: 50px;
+}
+.partners-img-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.section-sub-title {
+  font-size: 14px;
+  font-family: var(--sec-font-bold);
+  color: var(--sec-color);
+}
+h4.section-title.o-p {
+  margin-top: 10px;
+}
+.partners-txt-side {
+  max-width: 470px;
+}
+
+img.partnership-img {
+  width: 90%;
+}
+.partnership-txt-side {
+  max-width: 470px;
+  padding-bottom: 50px;
+}
+
+@media(max-width: 992px) {}
+
+@media(max-width: 600px) {}
+/*---=== end of Partners/Partnership Section ===---*/
+
+/*---=== Focus-Crops Section ===---*/
+section#focus-crops {
+  padding: 35px 0 25px;
+  background: #F6FAFF;
+}
+.crops-wrapper {
+  color: var(--sec-color);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin: 25px 0 15px;
+}
+.crops-name.center {
+  font-size: 24px;
+  font-family: var(--sec-font-xbold);
+}
+
+@media(max-width: 992px) {}
+
+@media(max-width: 600px) {
+  .crops-wrapper {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+/*---=== end of Focus-Crops Section ===---*/
+
+/*---=== Contact-Us Section ===---*/
+section#contact-us {
+  padding: 100px 0 80px;
+}
+.contact-content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: center;
+}
+textarea.materialize-textarea {
+  min-height: 120px;
+}
+button.form-submit-btn {
+  background-color: var(--pry-color);
+  border-radius: 5px;
+  font-size: 12px;
+  height: 46px;
+  line-height: 49px;
+  width: 155px;
+  cursor: pointer;
+}
+button.form-submit-btn:hover {
+  background-color: var(--sec-color);
+}
+.cont-form-inp:focus {
+  border-bottom: 1px solid var(--pry-color) !important;
+  box-shadow: 0 1px 0 0 var(--pry-color) !important;
+}
+.cont-form-inp:focus + label {
+  color: var(--pry-color) !important;
+}
+
+@media(max-width: 992px) {
+  .contact-content-wrapper {
+    gap: 30px;
+  }
+}
+
+@media(max-width: 600px) {
+  section#contact-us {
+    padding: 80px 0 70px;
+  }
+  .contact-content-wrapper {
+    grid-template-columns: 100%;
+  }
+}
+/*---=== end of Contact-Us Section ===---*/

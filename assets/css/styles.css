@@ -1,13 +1,17 @@
 :root {
   --pry-color: #4798ED;
   --sec-color: #3B3663;
-  --font: 'raleway', sans-serif;
-  --font-bold: 'raleway-bold', sans-serif;
-  --font-medium: 'raleway-medium', sans-serif;
-  --font-light: 'raleway-light', sans-serif;
-  --font-xbold: 'raleway-xbold', sans-serif;
-  --font-smbold: 'raleway-smbold', sans-serif;
-  --font-thin: 'raleway-thin', sans-serif;
+
+  --pry-font: 'rubik', sans-serif;
+  --pry-font-bold: 'rubik-bold', sans-serif;
+  --pry-font-medium: 'rubik-medium', sans-serif;
+  --pry-font-light: 'rubik-light', sans-serif;
+  --pry-font-xbold: 'rubik-xbold', sans-serif;
+  --pry-font-smbold: 'rubik-smbold', sans-serif;
+
+  --sec-font: 'nunito', sans-serif;
+  --sec-font-bold: 'nunito-bold', sans-serif;
+  --sec-font-xbold: 'nunito-xbold', sans-serif;
 
   width: 100%;
   overflow-x: hidden;
@@ -41,7 +45,7 @@ z-index: 1;
 }
 
 body {
-font-family: var(--font);
+font-family: var(--pry-font-light);
 height: auto;
 min-height: 100vh;
 background-color: white;
@@ -71,25 +75,34 @@ letter-spacing: -1px;
   display: none;
 }
 .reg-txt{
-  font-family: var(--font);
+  font-family: var(--pry-font);
 }
 .smbold-txt{
-  font-family: var(--font-smbold);
+  font-family: var(--pry-font-smbold);
 }
 .bold-txt{
-  font-family: var(--font-bold);
+  font-family: var(--pry-font-bold);
 }
 .xbold-txt{
-  font-family: var(--font-xbold);
+  font-family: var(--pry-font-xbold);
 }
 .light-txt{
-  font-family: var(--font-light);
+  font-family: var(--pry-font-light);
 }
 /* .xlight-txt{
   font-family: var(--font-xlite);
 } */
 .pry-font{
-  font-family: var(--font);
+  font-family: var(--pry-font);
+}
+.sec-font{
+  font-family: var(--sec-font);
+}
+.sec-font-bold{
+  font-family: var(--sec-font-bold);
+}
+.sec-font-xbold{
+  font-family: var(--sec-font-xbold);
 }
 .rel{
   position: relative;
@@ -112,7 +125,7 @@ letter-spacing: -1px;
 }
 .sec-bg{
   background-color: var(--sec-color);
-  color: #171637;
+  color: white;
 }
 
 .white-bg{
@@ -189,6 +202,13 @@ width: 90%;
 
 #main-contents-wrapper {
 min-height: 50vh;
+}
+
+.toast.success {
+  background-color: #95C355;
+}
+.toast.error {
+  background-color: red;
 }
 
 

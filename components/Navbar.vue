@@ -22,8 +22,13 @@
               </a>
             </li>
             <li>
-              <a href="#about">
-                <span>About</span>
+              <a href="#our-partners">
+                <span>Our Partners</span>
+              </a>
+            </li>
+            <li>
+              <a href="#focus-crops">
+                <span>Focus Crops</span>
               </a>
             </li>
             <li>
@@ -49,12 +54,17 @@
           </a>
         </li>
         <li>
-          <a href="#about">
-            <span>About</span>
+          <a href="#our-partners" class="sidenav-close">
+            <span>Our Partners</span>
           </a>
         </li>
         <li>
-          <a href="#contact-us">
+          <a href="#focus-crops" class="sidenav-close">
+            <span>Focus Crops</span>
+          </a>
+        </li>
+        <li>
+          <a href="#contact-us" class="sidenav-close">
             <span>Contact Us</span>
           </a>
         </li>
@@ -82,7 +92,7 @@ export default {
 }
 </script>
 
-<!-- <style scoped src="..\assets\css\navbar.css"></style> -->
+<style scoped src="..\assets\css\navbar.css"></style>
 
 <style scoped>
   .scrolled-nav .sidenav-trigger img {
