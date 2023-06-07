@@ -219,7 +219,8 @@ export default {
   data () {
     return {
       name: '',
-      email: ''
+      email: '',
+      message: ''
     }
   },
   mounted () {
